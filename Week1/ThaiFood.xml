@@ -4,4 +4,49 @@
         <FoodName>ข้าวผัดปู</FoodName>
         <price>50 บาท</price>
     </ThaiFood>
+    <ThaiFood>
+        <FoodID>002</FoodID>
+        <FoodName>ไก่เทอริยากิ</FoodName>
+        <price>50 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>003</FoodID>
+        <FoodName>ข้าวญี่ปุ่น</FoodName>
+        <price>60 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>004</FoodID>
+        <FoodName>ข้าวหน้าเนื้อ</FoodName>
+        <price>90 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>005</FoodID>
+        <FoodName>กุ้งดองเกาหลี</FoodName>
+        <price>59 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>006</FoodID>
+        <FoodName>ปูดองเกาหลี</FoodName>
+        <price>59 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>007</FoodID>
+        <FoodName>เเซลมอนดองเกาหลี</FoodName>
+        <price>59 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>008</FoodID>
+        <FoodName>ยำสาหร่าย</FoodName>
+        <price>59 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>009</FoodID>
+        <FoodName>สาหร่าย</FoodName>
+        <price>29 บาท</price>
+    </ThaiFood>
+    <ThaiFood>
+        <FoodID>010</FoodID>
+        <FoodName>รวมโคตรทะเลดอง</FoodName>
+        <price>590 บาท</price>
+    </ThaiFood>
 </Food>
