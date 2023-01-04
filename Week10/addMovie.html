@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <form id="myForm">
+            <div class="row">
+                <div class="col-9">
+                    <label>Movie Name</label>
+                    <input type="text" class="form-control" id="movieName">
+                </div>
+                <div class="col">
+                    <label>Movie Length</label>
+                    <input type="text" class="form-control" id="movieLength">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label>Director</label>
+                    <input type="text" class="form-control" id="director">
+                </div>
+                <div class="col">
+                    <label>Category</label>
+                    <input type="text" class="form-control" id="category">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label>Picture</label>
+                    <input type="text" class="form-control" id="picture">
+                </div>
+                <div class="col">
+                    <label>Trailer</label>
+                    <input type="text" class="form-control" id="trailer">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label>Review</label>
+                    <textarea class="form-control" id="review"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label>Screen Play</label>
+                    <input type="text" class="form-control" id="screenplay">
+                </div>
+                <div class="col">
+                    <label>Playing</label>
+                    <input type="text" class="form-control" id="playing">
+                </div>
+                <div class="col">
+                    <label>Music</label>
+                    <input type="text" class="form-control" id="music">
+                </div>
+                <div class="col">
+                    <label>Actor Skills</label>
+                    <input type="text" class="form-control" id="actorskills">
+                </div>
+                <div class="col">
+                    <label>Graphic</label>
+                    <input type="text" class="form-control" id="graphic">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <input class="btn btn-success" type="button" value="Submit" onclick="add()">
+                </div>
+
+            </div>
+        </form>
+    </div>
+    <script>
+        function add() {
+            let obj = {
+                "id": "",
+                "movieName": document.forms['myForm']['movieName'].value,
+                "movieLength": document.forms['myForm']['movieLength'].value,
+                "director": document.forms['myForm']['director'].value,
+                "category": document.forms['myForm']['ategory'].value,
+                "picture": document.forms['myForm']['picture'].value,
+                "trailer": document.forms['myForm']['railer'].value,
+                "review": {
+                    "review": document.forms['myForm']['review'].value,
+                    "score":{
+                        "screenPlay": document.forms['myForm']['reenPlay'].value,
+                        "playing": document.forms['myForm']['playing'].value,
+                        "music": document.forms['myForm']['music'].value,
+                        "actorSkills": document.forms['myForm']['actorSkills'].value,
+                        "graphics": document.forms['myForm']['raphics'].value,
+                        "average": null
+                    }
+                    
+                }
+                
+            };
+
+            console.log(obj);
+        }
+    </script>
+</body>
+
+</html>
