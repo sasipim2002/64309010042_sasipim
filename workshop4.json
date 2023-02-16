@@ -1,0 +1,84 @@
+{
+    "type": "FeatureCollection",
+    "totalFeatures": 4,
+    "features": [
+      {
+        "type": "Feature",
+        "id": "Air_pollution.1",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            673282.6127182024,
+            1515407.3790451507
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "location": "บริเวณหน้าสำนักงานเขตพระโขนง",
+          "id_air": "001",
+          "dcode": "1033",
+          "dname": "เขตพระโขนง"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "Air_pollution.2",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            662813.2050200249,
+            1513051.314980662
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "location": "บริเวณหน้าสำนักงานเขตราษฎร์บูรณะ",
+          "id_air": "002",
+          "dcode": "1024",
+          "dname": "เขตราษฎร์บูรณะ"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "Air_pollution.3",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            665928.737516219,
+            1521562.6580836328
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "location": "บริเวณหน้าสำนักงานเขตราชเทวี ถนนพญาไท",
+          "id_air": "003",
+          "dcode": "1037",
+          "dname": "เขตราชเทวี"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "Air_pollution.4",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            667814.5561712513,
+            1522936.3669526097
+          ]
+        },
+        "geometry_name": "the_geom",
+        "properties": {
+          "location": "บริเวณสวนป่า ถนนวิภาวดี เขตดินแดง",
+          "id_air": "004",
+          "dcode": "1026",
+          "dname": "เขตดินแดง"
+        }
+      }
+    ],
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:EPSG::32647"
+      }
+    }
+  }
